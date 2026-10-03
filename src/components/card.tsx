@@ -13,7 +13,7 @@ export default function Card({
             <img src={pic} alt={location} />
             <h2>{country}</h2>
             <h3>{location}</h3>
-            <p>★ {rating}</p>
+            <p className={rating > 4.0 ? "green" : "red"}>★ {rating}</p>
             <p>${price}</p>
         </div>
     );
