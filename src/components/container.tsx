@@ -3,7 +3,7 @@ import listings from "../data/data";
 
 export default function Container() {
     return (
-        <div>
+        <div className="container">
                 {listings.map((listing) => (
                     <Card
                         id={listing.id}

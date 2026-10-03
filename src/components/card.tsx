@@ -9,7 +9,7 @@ export default function Card({
     price,
 }: ResortListing) {
     return (
-        <div>
+        <div className="card">
             <img src={pic} alt={location} />
             <h2>{country}</h2>
             <h3>{location}</h3>
